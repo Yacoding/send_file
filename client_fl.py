@@ -17,7 +17,7 @@ file = open('file.jpg', 'rb')
 
 try:
     while 1:
-        buf = file.read(4)
+        buf = file.read(48)
         if buf == '':
             break
         print buf

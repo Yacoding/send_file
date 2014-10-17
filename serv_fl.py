@@ -21,7 +21,7 @@ file = open('file_cp.jpg', 'wb')
 
 try :
     while 1:
-        buf = conn.recv(4)
+        buf = conn.recv(48)
         if buf == '':
             break
         print buf
